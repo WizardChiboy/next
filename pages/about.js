@@ -21,7 +21,9 @@ export default function About() {
       </Head>
 
       <main className={styles.main}>
-        <FacebookShareButton url={"https://sage-starburst-317c1e.netlify.app"}>
+        <FacebookShareButton
+          url={"https://sage-starburst-317c1e.netlify.app/about"}
+        >
           <FacebookIcon size={32} round />
         </FacebookShareButton>
       </main>
